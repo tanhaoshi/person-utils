@@ -16,14 +16,6 @@ android {
             abiFilters 'armeabi-v7a'
         }
     }
-	
-	 buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            consumerProguardFiles 'consumer-rules.pro' // 重要：传递混淆规则给使用者
-        }
-    }
 }
 
 dependencies {
