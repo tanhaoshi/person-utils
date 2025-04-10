@@ -16,6 +16,7 @@ android {
             abiFilters 'armeabi-v7a'
         }
     }
+<<<<<<< HEAD
 
     sourceSets {
         main {
@@ -23,6 +24,8 @@ android {
             res.srcDirs = ['src/main/res']
         }
     }
+=======
+>>>>>>> b8775d052905b1e37c77ca1fa5ed542a3e076320
 }
 
 dependencies {
