@@ -20,5 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 # 保留特定类不被混淆
--keep public class com.shouzhong.idcard.** { *; }
--keep public class exocr.exocrengine.** { *; }
+#身份证
+-keep public class com.shouzhong.idcard.IdCardUtils
+-keep public class exocr.exocrengine.EXOCREngine
