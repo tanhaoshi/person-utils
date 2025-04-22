@@ -24,6 +24,14 @@ android {
             res.srcDirs = ['src/main/res']
         }
     }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            consumerProguardFiles 'consumer-rules.pro' // 传递给使用者的混淆规则
+        }
+    }
 }
 
 dependencies {
