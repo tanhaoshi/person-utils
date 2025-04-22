@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+# 保留特定类不被混淆
+-keep public class com.shouzhong.idcard.** { *; }
+-keep public class exocr.exocrengine.** { *; }
